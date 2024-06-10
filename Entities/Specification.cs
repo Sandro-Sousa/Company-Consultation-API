@@ -16,7 +16,6 @@ namespace Entities
         public static Contract<Notification> EnsureCode(string code) =>
             new Contract<Notification>()
         .Requires()
-                .IsLowerThan(code.Length, 5, "Código", "Somente 5 caracteres")
-                .IsGreaterThan(code.Length, 4, "Código", "o Codigo deve conter mais que 4 caracteres");
+                .IsGreaterThan(code.Length, 5, "Código", "o Codigo deve conter mais que 4 caracteres");
     }
 }
