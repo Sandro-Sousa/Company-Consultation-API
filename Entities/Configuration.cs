@@ -11,7 +11,7 @@ namespace Entities
 
         public class DatabaseConfiguration
         {
-            public string ConnectionString { get; set; } = "xxxxxxx";
+            public string ConnectionString { get; set; } = string.Empty;
         }
 
         public class EmailConfiguration

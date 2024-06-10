@@ -41,7 +41,6 @@ namespace Company_Consultation.WebAPI.Extensions
             ci.AddClaim(new Claim(ClaimTypes.GivenName, user.Name));
             ci.AddClaim(new Claim(ClaimTypes.Email, user.Email));
 
-            // Remover a adição de roles
             // foreach (var role in user.Roles)
             //     ci.AddClaim(new Claim(ClaimTypes.Role, role));
 
