@@ -10,6 +10,9 @@
 - [Swagger] - framework Para Interface de Uma APi Para, Documentar, Visualizar, Consumir APIRest.
 
 
+## Atenção!!! 
+### Projeto está utilizando Use Secrets para buscar private key da api.
+
 ### Criar Migração
 ```sh
 dotnet ef migrations add NomeDaMigracao --project ProjetoDeInfraestrutura --startup-project ProjetoDeAplicacao --context NomeDoContexto
