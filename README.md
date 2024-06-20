@@ -1,4 +1,4 @@
-# Projeto Consulta Pessoa Juridica
+# Projeto Consulta Pessoa Jurídica
 ## Criando uma API com Asp.net Core Web Api, Jwt, padrão de design Orientada a Dominio DDD, Repository Pattern e Adapter Pattern.
 
 ## Tecnologias Usadas
